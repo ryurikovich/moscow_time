@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Московское время</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .time { font-size: 2em; color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <h1>Текущее московское время</h1>
+    <div class="time">{{ time }}</div>
+
+    <script>
+        setInterval(() => location.reload(), 1000); // Перезагрузка каждые 1000 мс (1 секунда)
+    </script>
+</body>
+</html>
